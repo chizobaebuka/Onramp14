@@ -14,6 +14,6 @@ let c = a + b
 if (a > 5) {
   console.log('I am a great developer')
 } else {
-  console.log('I am continually leaerning to be better')
+  console.log('I am continually learning to be better')
 }
 >>>>>>> 5b79ba5c16c241fd165ebcfa3b3a30be508ef964
