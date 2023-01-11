@@ -1,19 +1,34 @@
-<<<<<<< HEAD
-let a = 2
-let b = 5
-let c = a + b
+// VARIABLES (you can use var, let or const)
 
-if (c < 5) {
-    console.log('I am great developer');
-}
-=======
-let a = 2
-let b = 5
-let c = a + b
+// Just declaring the variable
+let firstName;
+// initializing the variable (giving a value to a variable)
+let surName = "student";
+firstName = 'decadev';
 
-if (a > 5) {
-  console.log('I am a great developer')
-} else {
-  console.log('I am continually learning to be better')
+// Typeof 
+let isStudent = true;
+let data = {};
+let num1 = '1'
+
+console.log(typeof (num1));
+
+// OPERANDS
+// *, +, -, /, %(remainder), and **(exponential)
+
+// CONDITIONALS (if/else statement) & (switch/case statements)
+let age = 17;
+
+if(age>= 16){
+    console.log('permitted to open an account');
+}else if (age >= 12){
+    console.log("open a type 2 savings account");
+}else{
+    console.log('open type 1 kiddies account');
 }
->>>>>>> 5b79ba5c16c241fd165ebcfa3b3a30be508ef964
+
+// LOGICAL OPERATORS (|| OR) (&& AND)
+// (|| OR) this checks if any of the arguments is truthy
+if (age == 16 || age > 16){
+    console.log('Your permitted to open an account');
+}
